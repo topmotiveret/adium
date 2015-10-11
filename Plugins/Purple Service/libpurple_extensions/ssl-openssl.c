@@ -27,8 +27,8 @@
 
 #ifdef HAVE_OPENSSL
 
-#import <openssl/ssl.h>
-#import <openssl/err.h>
+#import "openssl/ssl.h"
+#import "openssl/err.h"
 
 typedef struct
 {

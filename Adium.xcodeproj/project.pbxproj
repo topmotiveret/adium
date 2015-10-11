@@ -12625,6 +12625,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E02A0FAF9BA800B310AC /* Debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				USER_HEADER_SEARCH_PATHS = "\"Dependencies/openssl\"";
 			};
 			name = Debug;
 		};
@@ -12632,6 +12634,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E02B0FAF9BA800B310AC /* Release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				USER_HEADER_SEARCH_PATHS = "\"Dependencies/openssl\"";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
 			};
 			name = Release;
 		};
@@ -12639,6 +12644,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E02C0FAF9BA800B310AC /* Release-Debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				USER_HEADER_SEARCH_PATHS = "\"Dependencies/openssl\"";
 			};
 			name = "Release-Debug";
 		};

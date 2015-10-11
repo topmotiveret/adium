@@ -39,8 +39,9 @@
 #import "AWEzvRendezvousData.h"
 #import "AWEzvSupportRoutines.h"
 
+
 #import <dns_sd.h>
-#import <openssl/sha.h>
+#import "sha.h"
 
 /* One of the stupidest things I've ever met. Doing DNS lookups using the standard
  * functions does not for mDNS records work unless you're in BIND 8 compatibility
